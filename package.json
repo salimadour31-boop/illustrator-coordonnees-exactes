@@ -1,0 +1,16 @@
+{
+  "name": "illustrator-coordonnees-exactes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Outils de construction et tests (Node.js) de CoordonneesExactes.jsx / build and test tooling",
+  "license": "MIT",
+  "scripts": {
+    "build": "node tools/build.js",
+    "syntax": "acorn --ecma3 --silent CoordonneesExactes.jsx && acorn --ecma5 --silent CoordonneesExactes.jsx",
+    "test": "node tests/run.js"
+  },
+  "devDependencies": {
+    "acorn": "^8.12.0",
+    "libphonenumber-js": "^1.11.0"
+  }
+}

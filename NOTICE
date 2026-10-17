@@ -1,0 +1,16 @@
+CoordonneesExactes.jsx
+Copyright (c) 2026 Amirouche Amwanes — MIT License (see LICENSE).
+
+This project includes phone numbering plan metadata derived from libphonenumber:
+  data/PhoneNumberMetadata.xml and the tables generated from it in
+  src/part1_data.js and CoordonneesExactes.jsx.
+  Copyright (C) 2009 The Libphonenumber Authors
+  Licensed under the Apache License, Version 2.0 (see data/LICENSE-libphonenumber
+  or http://www.apache.org/licenses/LICENSE-2.0).
+  Source: https://github.com/google/libphonenumber (resources/PhoneNumberMetadata.xml),
+  retrieved 2026-10-17. Modification: converted to compact JavaScript arrays by
+  tools/build_data.py. No libphonenumber code is used.
+
+Top-level domain list: IANA, https://data.iana.org/TLD/tlds-alpha-by-domain.txt
+  (Version 2026101700).
+IBAN lengths: SWIFT IBAN registry (country lengths only).
